@@ -3,14 +3,102 @@
 <head>
 	<title>Bootstrap</title>
 	<!-- Bootstrap CSS -->
-    <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" -->
-    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+    <!-- <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css"> -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
+<style type="text/css">
+	.row>div,.row{
+		border:2px dotted green;
+	}
+</style>
 <body>
+	<!-- <div class="text-center">
+	<h1 class="h6">Hello World</h1>
+	<h2 class="h5">Hello World</h2>
+	<h3 class="h4">Hello World</h3>
+	<h4 class="h3">Hello World</h4>
+	<h5 class="h2">Hello World</h5>
+	<h6 class="h1">Hello World</h6>
+	</div>
+	<div class="">
+		<h1 class="h6"> Hello World h1 tag</h1>
+		<h2 class="h5">Hello World</h2>
+		<h3 class="h4">Hello World</h3>
+		<h4 class="h3">Hello World</h4>
+		<h5 class="h2">Hello World</h5>
+		<h6 class="h1">Hello World</h6>
+	</div>
+	<div class="text-right">
+	<h1 class="h6">Hello World</h1>
+	<h2 class="h5">Hello World</h2>
+	<h3 class="h4">Hello World</h3>
+	<h4 class="h3">Hello World</h4>
+	<h5 class="h2">Hello World</h5>
+	<h6 class="h1">Hello World</h6>
+	</div>
+
+	<p class="text-capitalize">hello world</p>
+	<p class="text-uppercase">Good Morning</p>
+	<p class="text-lowercase">GOOD NIGHT</p>
+	
+ 	<div>
+ 		<h1> Colors</h1>
+		<p class="text-success text-uppercase"> Hello world</p>
+		<p class="text-danger"> Hello world</p>
+		<p class="text-info"> Hello world</p>
+		<p class="text-primary"> Hello world</p>
+		<p class="text-dark"> Hello world</p>
+		<p class="bg-dark text-info"> Hello world</p>
+		<p class="bg-dark text-muted">Hello World</p>
+	</div>
+	<div>	
+	<h1>links</h1>
+	<p><a href="#" class="text-success p-1">Green</a></p>
+	</div>
+	<div>
+	<h1 class="p-2 m-1">World</h1>
+	</div>
+	<div class="h-75" style="border: 2px solid blue">
+		<h1>Alerts</h1>
+		<h1 class="alert-success text-center">Good Morning</h1>
+		<h1 class="alert-danger text-center">Good Morning</h1>
+		<h1 class="alert-primary  text-center">Good Morning</h1>
+		<h1 class="alert-warning  text-center">Good Morning</h1>
+	</div>
+
+
+	<div class="d-flex p-2 m-2 flex-column-reverse">
+		<div class="w-50 p-2 m-2" style="border: 2px solid blue" >1</div>
+		<div class="w-50 p-2 m-2" style="border: 2px solid blue">2</div>
+
+	</div>
+	<div>
+		<h1>Buttons</h1>
+		<button>Click Me</button>
+		<a href="" class="btn">Click Me</a>
+		<button class="btn-primary">Click me</button>
+		<button class="btn-info">Click me</button>
+		<button class="btn-danger">Click me</button>
+		<button class="btn-warning">Click me</button>
+		<button class="btn-success">Click me</button>
+
+		xs less than 575px
+		sm 576-768 -->
+		<!-- md 768-992 -->
+		<!-- lg >922 -->
+
+		<!-- <button class="btn-xs btn-primary">Click me</button>
+		<button class="btn-sm btn-info">Click me</button>
+		<button class="btn-md btn-danger">Click me</button>
+		<button class="btn-lg btn-warning">Click me</button>
+		<button class="btn-success">Click me</button>
+
+	</div>
 
 	<div>
 		<h1>Table</h1>
+
 		<table class="table table-responsive bg-light text-info table-striped">
 		<tr>
 			<thead class="thead-dark">
@@ -35,69 +123,106 @@
 			<td>RPA Developer</td>
 		</tr>
 		</table>
-	</div>
-	<!-- <div class="text-center">
-	<h1 class="h6">Hello World</h1>
-	<h2 class="h5">Hello World</h2>
-	<h3 class="h4">Hello World</h3>
-	<h4 class="h3">Hello World</h4>
-	<h5 class="h2">Hello World</h5>
-	<h6 class="h1">Hello World</h6>
-
-	<p class="text-capitalize">hello world</p>
-	<p class="text-uppercase">Good Morning</p>
-	<p class="text-lowercase">GOOD NIGHT</p>
-
-	</div -->
-
-	<!-- <div>
-		<p class="text-success h1"> Hello world</p>
-		<p class="text-danger"> Hello world</p>
-		<p class="text-info"> Hello world</p>
-		<p class="text-primary"> Hello world</p>
-		<p class="text-dark"> Hello world</p>
-		<p class="bg-dark text-info"> Hello world</p>
-		<p class="bg-dark text-muted">Hello World</p>
-	</div>
-	<h1>links</h1>
-	<p><a href="#" class="text-success p-1">Green</a></p>
-
-	<h1 class="p-2 m-1">World</h1>
-	<div class="h-75" style="border: 2px solid blue">
-		<h1>Alerts</h1>
-		<h1 class="alert-success w-25 text-center">Good Morning</h1>
-		<h1 class="alert-danger w-25 text-center">Good Morning</h1>
-		<h1 class="alert-primary  text-center">Good Morning</h1>
-		<h1 class="alert-warning  text-center">Good Morning</h1>
-
 	</div> -->
-
-	<!-- <div class="d-flex p-2 m-2 flex-column-reverse">
-		<div class="w-50 p-2 m-2" style="border: 2px solid blue" >1</div>
-		<div class="w-50 p-2 m-2" style="border: 2px solid blue">2</div>
-
+	
+	<div>
+		<h1>Display</h1>
+		<div class="display-1">Hello World 90px</div>
+		<div  class="display-2">Hello World 82px</div>
+		<div  class="display-3">Hello World 62px</div>
+		<div  class="display-4">Hello World 52px</div>
+		<div  class="display-5">Hello World 16px</div>
 	</div> -->
-	<!-- <div>
-		<h1>Buttons</h1>
-		<button>Click Me</button>
-		<a href="" class="btn">Click Me</a>
-		<button class="btn-primary">Click me</button>
-		<button class="btn-info">Click me</button>
-		<button class="btn-danger">Click me</button>
-		<button class="btn-warning">Click me</button>
-		<button class="btn-success">Click me</button>
+	<!-- <grid is collection of rows and colums cell is space b/w four lines frid two dim> -->
 
-		xs less than 575px
-		sm 576-768 -->
-		<!-- md 768-992 -->
-		<!-- lg >922 -->
-
-		<!-- <button class="btn-xs btn-primary">Click me</button>
-		<button class="btn-sm btn-info">Click me</button>
-		<button class="btn-md btn-danger">Click me</button>
-		<button class="btn-lg btn-warning">Click me</button>
-		<button class="btn-success">Click me</button> -->
-
-	<!-- /div> -->
+	 <!-- xs <768, sm>768 and 992px md >992 1200px lg > 1200px-->
+<!-- 
+	<div class="col-xs"></div>
+	<div class="col-sm"></div>
+	<div class="col-md"></div>
+	<div class="col-lg"></div> 
+	<div>
+	<div class="row" style="border: 2px solid">
+		<div class="col-xs-l">1</div>
+		<div class="col-xs-l">2</div>
+		<div class="col-xs-l">3</div>
+		<div class="col-xs-l">4</div>
+		<div class="col-xs-l">5</div>
+		<div class="col-xs-l">6</div>
+		<div class="col-xs-l">7</div>
+		<div class="col-xs-l">8</div>
+		<div class="col-xs-l">9</div>
+		<div class="col-xs-l">10</div>
+		<div class="col-xs-l">11</div>
+		<div class="col-xs-l">12</div>
+		<div class="col-xs-l">13</div>
+		<div class="col-xs-l">14</div>
+	</div>
+	</div>
+	<div class="row" style="border: 2px solid">
+		<div class="col-sm-l">1</div>
+		<div class="col-sm-l">2</div>
+		<div class="col-sm-l">3</div>
+		<div class="col-sm-l">4</div>
+		<div class="col-sm-l">5</div>
+		<div class="col-sm-l">6</div>
+		<div class="col-sm-l">7</div>
+		<div class="col-sm-l">8</div>
+		<div class="col-sm-l">9</div>
+		<div class="col-sm-l">10</div>
+		<div class="col-sm-l">11</div>
+		<div class="col-sm-l">12</div>
+	</div>
+	<div>
+		<h1>Unequal Parts</h1>
+		<div class="row" style="border: 2px solid">
+		<div class="col-sm-2">1</div>
+		<div class="col-sm-5">2</div>
+		<div class="col-sm-3">3</div>
+		<div class="col-sm-2">4</div>
+		</div>
+	</div>
+	<div>
+		<h1>Unequal Parts</h1>
+		<div class="row" style="border: 2px solid">
+		<div class="col-lg-2">1</div>
+		<div class="col-lg-5">2</div>
+		<div class="col-lg-3">3</div>
+		<div class="col-lg-2">4</div>
+		</div>
+	</div> -->
+	<div>
+		<h1>Equal Parts</h1>
+		<div class="row" style="border: 2px solid">
+		<div>
+			<div class="col-lg-4">1</div>
+			<div class="col-lg-4">2</div>
+			<div class="col-lg-4">3</div>
+		</div>
+		<div class="row" style="border: 2px solid">
+			<div class="col-lg-6">1</div>
+			<div class="col-lg-6">2</div>
+			<div class="col-lg-6">3</div>
+		</div>
+	</div>
+	<div class="row" style="border: 2px solid">
+			<div class="col-lg-6">1</div>
+			<div class="col-lg-6">2</div>
+		</div>
+	</div>
+	<div>
+		<h1>Order of grid
+		<li>first second last ,1,2,3,4,
+		</li>
+		</h1>
+		<div>
+			<div class="row">
+			<div class="md-3 order-">div 1 to last</div>
+			<div class="lg-3 order-3">div 2 change -order-3 </div>
+			<div class="lg-3 order-first">div 3 change</div>
+			<div class="lg-3 order-second">last-2 div 2</div>
+		</div>
+		</div>
+	</div>
 </body>
 </html>

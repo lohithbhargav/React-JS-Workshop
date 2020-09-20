@@ -1,0 +1,13 @@
+.Home{
+	display: flex;
+	flex-direction: row;
+}
+
+.left,.right{
+	width: 36%;
+	border: 2px #FF4500;
+	padding: 4%;
+	margin: 2%;
+	text-align: left;
+	box-shadow: 2px 2px 2px 2px;
+}

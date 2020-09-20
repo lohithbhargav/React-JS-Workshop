@@ -1,0 +1,67 @@
+.Left{
+	display: flex;
+	flex-direction: row; 
+}
+.left1{
+	width: 20%;
+	border: 2px #FF4500;
+	padding: 2%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	text-align: left;
+}
+.right1{
+	width: 70%;
+	border: 2px #FF4500;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	text-align: left;
+}
+.skill{
+	text-align: left;
+}
+
+.Education,.Certifed,.contact{
+	text-align: left;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px )
+{	.Left{
+		display: flex;
+		flex-direction: column;
+		width: 100%; 
+	}
+	.Left>section{
+		width: 100%;
+/*		border : 2px solid blue;
+		padding: 2%;
+		margin: 1%;
+		text-align: center;
+		border-radius: 20px 20px 20px 20px;
+		box-shadow: 20px 0px 20px 0px blue;*/
+	}
+}
+/* tab view minimum width 481 px and max 760px */
+@media only screen and (min-width: 481px) and (max-width: 768px)
+{
+	.Left{
+		width: 100%;
+	}
+	.Left>section{
+		width: 100%;
+	}
+	body{
+		background: skyblue;
+	}
+}
+/* desktop view minimum width 768 px and max 1024px */
+@media only screen and (min-width: 769px ) and (max-width: 1024px){
+{	
+	body{
+		background: teal;
+	}
+	img{
+		width: 200px;
+	}
+}
